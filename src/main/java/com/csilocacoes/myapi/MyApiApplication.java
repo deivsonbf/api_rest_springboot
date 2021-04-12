@@ -23,10 +23,10 @@ public class MyApiApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		Usuario u4 = new Usuario(null, "Hulk", "dbanner", "123");
+		Usuario u1 = new Usuario(null, "Hulk", "dbanner", "123");
 
 
-		// usuarioRepository.saveAll(Arrays.asList(u4));
+		usuarioRepository.saveAll(Arrays.asList(u1));
 
 	}
 

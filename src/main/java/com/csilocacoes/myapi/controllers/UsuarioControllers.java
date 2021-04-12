@@ -27,10 +27,10 @@ public class UsuarioControllers {
 		return ResponseEntity.ok().body(obj);
 
 	}
-	
+
 	@GetMapping
-	public ResponseEntity<List<Usuario>> findAll(){
-		
+	public ResponseEntity<List<Usuario>> findAll() {
+
 		List<Usuario> list = service.findAll();
 		return ResponseEntity.ok(list);
 	}
